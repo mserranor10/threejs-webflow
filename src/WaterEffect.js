@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { TouchTexture } from './TouchTexture.js'
+import { TouchTexture } from 'https://github.com/mserranor10/threejs-webflow/blob/main/src/TouchTexture.js'
 
 export class WaterEffect {
   constructor(renderer) {
