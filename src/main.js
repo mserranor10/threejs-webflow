@@ -1,6 +1,6 @@
 import './styles/style.css';
 import * as THREE from 'three';
-import { WaterEffect } from './src/WaterEffect'
+import { WaterEffect } from './WaterEffect'
 import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 
