@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import { TouchTexture } from './TouchTexture'
+import { TouchTexture } from './TouchTexture.js'
 
 export class WaterEffect {
   constructor(renderer) {
