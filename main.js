@@ -1,6 +1,6 @@
 import './styles/style.css';
 import * as THREE from 'three';
-import { WaterEffect } from './WaterEffect'
+import { WaterEffect } from './src/WaterEffect'
 import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 
@@ -18,7 +18,7 @@ camera.position.z = 275;
 
 const loader = new FontLoader();
 
-loader.load( 'fonts/helvetiker_bold.typeface.json', function ( font ) {
+loader.load( '/satoshi.json', function ( font ) {
 
 	const geometry = new TextGeometry( 'Hello three.js!', {
 		font: font,
